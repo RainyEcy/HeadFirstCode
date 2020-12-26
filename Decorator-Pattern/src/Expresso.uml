@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>beverage.Expresso</OriginalElement>
+  <nodes>
+    <node x="364.0" y="296.0">decorator.Whip</node>
+    <node x="610.0" y="0.0">beverage.Beverage</node>
+    <node x="258.0" y="169.5">decorator.CondimentDecorator</node>
+    <node x="470.0" y="148.0">beverage.Expresso</node>
+    <node x="546.0" y="296.0">decorator.Soy</node>
+    <node x="182.0" y="296.0">decorator.Mocha</node>
+    <node x="0.0" y="296.0">decorator.Milk</node>
+    <node x="615.0" y="148.0">beverage.Decaf</node>
+    <node x="905.0" y="148.0">beverage.HouseBlend</node>
+    <node x="760.0" y="148.0">beverage.DarkRoast</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="beverage.Decaf" target="beverage.Beverage">
+      <point x="0.0" y="-49.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="decorator.CondimentDecorator" target="beverage.Beverage">
+      <point x="0.0" y="-27.5" />
+      <point x="354.0" y="118.0" />
+      <point x="623.5" y="118.0" />
+      <point x="-54.0" y="49.0" />
+    </edge>
+    <edge source="beverage.HouseBlend" target="beverage.Beverage">
+      <point x="0.0" y="-49.0" />
+      <point x="970.0" y="118.0" />
+      <point x="731.5" y="118.0" />
+      <point x="54.0" y="49.0" />
+    </edge>
+    <edge source="decorator.Milk" target="decorator.CondimentDecorator">
+      <point x="0.0" y="-92.0" />
+      <point x="81.0" y="266.0" />
+      <point x="282.0" y="266.0" />
+      <point x="-72.0" y="27.5" />
+    </edge>
+    <edge source="beverage.DarkRoast" target="beverage.Beverage">
+      <point x="0.0" y="-49.0" />
+      <point x="822.5" y="128.0" />
+      <point x="704.5" y="128.0" />
+      <point x="27.0" y="49.0" />
+    </edge>
+    <edge source="decorator.Mocha" target="decorator.CondimentDecorator">
+      <point x="0.0" y="-92.0" />
+      <point x="263.0" y="276.0" />
+      <point x="330.0" y="276.0" />
+      <point x="-24.0" y="27.5" />
+    </edge>
+    <edge source="decorator.Whip" target="decorator.CondimentDecorator">
+      <point x="0.0" y="-92.0" />
+      <point x="445.0" y="276.0" />
+      <point x="378.0" y="276.0" />
+      <point x="24.0" y="27.5" />
+    </edge>
+    <edge source="decorator.Soy" target="decorator.CondimentDecorator">
+      <point x="0.0" y="-92.0" />
+      <point x="627.0" y="266.0" />
+      <point x="426.0" y="266.0" />
+      <point x="72.0" y="27.5" />
+    </edge>
+    <edge source="beverage.Expresso" target="beverage.Beverage">
+      <point x="0.0" y="-49.0" />
+      <point x="532.5" y="128.0" />
+      <point x="650.5" y="128.0" />
+      <point x="-27.0" y="49.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="410.0" y="411.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
