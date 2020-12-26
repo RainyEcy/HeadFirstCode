@@ -1,3 +1,5 @@
+package beverage;
+
 public class Expresso extends Beverage {
 
   public Expresso() {

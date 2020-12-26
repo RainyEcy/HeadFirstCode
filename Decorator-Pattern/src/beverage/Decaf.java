@@ -1,3 +1,5 @@
+package beverage;
+
 public class Decaf extends Beverage {
 
   public Decaf() {

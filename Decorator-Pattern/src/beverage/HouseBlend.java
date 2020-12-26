@@ -1,3 +1,5 @@
+package beverage;
+
 public class HouseBlend extends Beverage {
 
   public HouseBlend() {

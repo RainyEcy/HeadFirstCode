@@ -1,3 +1,5 @@
+package beverage;
+
 public class DarkRoast extends Beverage {
 
   public DarkRoast() {

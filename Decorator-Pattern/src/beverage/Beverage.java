@@ -1,3 +1,5 @@
+package beverage;
+
 public abstract class Beverage {
 
   protected String description = "unknown Beverage";
