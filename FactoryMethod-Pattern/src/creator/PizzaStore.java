@@ -4,7 +4,7 @@ import product.Pizza;
 
 public abstract class PizzaStore {
 
-  public void orderPizza(String type) {
+  public Pizza orderPizza(String type) {
     Pizza pizza = createPizza(type);
 
     pizza.prepare();
@@ -14,6 +14,8 @@ public abstract class PizzaStore {
     pizza.cut();
 
     pizza.box();
+
+    return pizza;
   }
 
   protected abstract Pizza createPizza(String type);

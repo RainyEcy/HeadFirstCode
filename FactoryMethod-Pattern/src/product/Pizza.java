@@ -1,13 +1,32 @@
 package product;
 
-public interface Pizza {
+import java.util.ArrayList;
+import java.util.List;
 
-  void prepare();
+public abstract class Pizza {
 
-  void bake();
+  String name = "unKnown Pizza";
 
-  void cut();
+  String dough = "unKnown Dough";
 
-  void box();
+  String sauce = "unKnown sauce";
+
+  List toppings = new ArrayList();
+
+  public void prepare() {
+    System.out.println(name);
+    System.out.println(dough);
+    System.out.println(sauce);
+  }
+
+  public abstract void bake();
+
+  public abstract void cut();
+
+  public abstract void box();
+
+  public String getName() {
+    return name;
+  }
 
 }

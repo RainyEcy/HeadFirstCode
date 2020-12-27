@@ -1,28 +1,29 @@
 package product;
 
-public class ChicagoStyleCheesePizza implements Pizza {
+public class ChicagoStyleCheesePizza extends Pizza {
 
-  @Override
-  public void prepare() {
-    System.out.println(this.getClass().getSimpleName() + Thread.currentThread().getStackTrace()[1]
-        .getMethodName());
+  public ChicagoStyleCheesePizza() {
+    name = "ChicagoStyleCheesePizza name";
+    dough = "ChicagoStyleCheesePizza dough";
+    sauce = "ChicagoStyleCheesePizza sauce";
+    toppings.add("Cheese");
   }
 
   @Override
   public void bake() {
-    System.out.println(this.getClass().getSimpleName() + Thread.currentThread().getStackTrace()[1]
+    System.out.println(this.getClass().getSimpleName() + " " + Thread.currentThread().getStackTrace()[1]
         .getMethodName());
   }
 
   @Override
   public void cut() {
-    System.out.println(this.getClass().getSimpleName() + Thread.currentThread().getStackTrace()[1]
+    System.out.println(this.getClass().getSimpleName() + " " + Thread.currentThread().getStackTrace()[1]
         .getMethodName());
   }
 
   @Override
   public void box() {
-    System.out.println(this.getClass().getSimpleName() + Thread.currentThread().getStackTrace()[1]
+    System.out.println(this.getClass().getSimpleName() + " " + Thread.currentThread().getStackTrace()[1]
         .getMethodName());
   }
 
