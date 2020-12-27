@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>product.ChessPizza</OriginalElement>
+  <nodes>
+    <node x="244.0" y="600.0">creator.NYStylePizzaStore</node>
+    <node x="87.5" y="0.0">product.Pizza</node>
+    <node x="360.0" y="128.0">creator.NYPizzaIngreaientFactory</node>
+    <node x="162.75" y="472.0">creator.PizzaStore</node>
+    <node x="102.0" y="743.0">product.Dough</node>
+    <node x="0.0" y="286.0">product.ChessPizza</node>
+    <node x="180.0" y="848.0">product.ThickCrustDough</node>
+    <node x="0.0" y="621.5">creator.ChicagoStylePizzaStore</node>
+    <node x="0.0" y="848.0">product.ThinCrustDough</node>
+    <node x="405.5" y="0.0">creator.PizzaIngredientFactory</node>
+    <node x="800.0" y="577.0">product.ParmesanCheese</node>
+    <node x="716.0" y="472.0">product.Cheese</node>
+    <node x="604.0" y="577.0">product.MozzarellaCheese</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="creator.NYStylePizzaStore" target="creator.PizzaStore">
+      <point x="0.0" y="-49.0" />
+      <point x="401.5" y="575.0" />
+      <point x="303.75" y="575.0" />
+      <point x="47.0" y="39.0" />
+    </edge>
+    <edge source="product.ThinCrustDough" target="product.Dough">
+      <point x="0.0" y="-27.5" />
+      <point x="80.0" y="823.0" />
+      <point x="137.0" y="823.0" />
+      <point x="-35.0" y="27.5" />
+    </edge>
+    <edge source="creator.ChicagoStylePizzaStore" target="creator.PizzaStore">
+      <point x="0.0" y="-27.5" />
+      <point x="112.0" y="575.0" />
+      <point x="209.75" y="575.0" />
+      <point x="-47.0" y="39.0" />
+    </edge>
+    <edge source="product.ChessPizza" target="product.Pizza">
+      <point x="0.0" y="-70.5" />
+      <point x="0.0" y="118.0" />
+    </edge>
+    <edge source="creator.NYPizzaIngreaientFactory" target="creator.PizzaIngredientFactory">
+      <point x="0.0" y="-93.5" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="product.ThickCrustDough" target="product.Dough">
+      <point x="0.0" y="-27.5" />
+      <point x="264.0" y="823.0" />
+      <point x="207.0" y="823.0" />
+      <point x="35.0" y="27.5" />
+    </edge>
+    <edge source="product.ParmesanCheese" target="product.Cheese">
+      <point x="0.0" y="-27.5" />
+      <point x="880.0" y="552.0" />
+      <point x="821.0" y="552.0" />
+      <point x="35.0" y="27.5" />
+    </edge>
+    <edge source="product.MozzarellaCheese" target="product.Cheese">
+      <point x="0.0" y="-27.5" />
+      <point x="692.0" y="552.0" />
+      <point x="751.0" y="552.0" />
+      <point x="-35.0" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="609.0" y="379.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
