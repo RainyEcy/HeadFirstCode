@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>product.ChicagoStyleClamPizza</OriginalElement>
+  <nodes>
+    <node x="252.0" y="316.0">product.NYStyleCheesePizza</node>
+    <node x="716.0" y="316.0">product.NYStyleVeggiePizza</node>
+    <node x="630.0" y="0.0">product.Pizza</node>
+    <node x="104.0" y="505.0">creator.PizzaStore</node>
+    <node x="464.0" y="316.0">product.ChicagoStyleCheesePizza</node>
+    <node x="1124.0" y="316.0">product.ChicagoStyleClamPizza</node>
+    <node x="928.0" y="316.0">product.NYStyleClamPizza</node>
+    <node x="208.0" y="633.0">creator.ChicagoPizzaStore</node>
+    <node x="0.0" y="316.0">product.ChicagoStyleVeggiePizza</node>
+    <node x="0.0" y="633.0">creator.NYPizzaStore</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="creator.ChicagoPizzaStore" target="creator.PizzaStore">
+      <point x="0.0" y="-27.5" />
+      <point x="302.0" y="608.0" />
+      <point x="245.0" y="608.0" />
+      <point x="47.0" y="39.0" />
+    </edge>
+    <edge source="product.NYStyleVeggiePizza" target="product.Pizza">
+      <point x="0.0" y="-72.0" />
+      <point x="812.0" y="296.0" />
+      <point x="707.0" y="296.0" />
+      <point x="11.0" y="128.0" />
+    </edge>
+    <edge source="creator.NYPizzaStore" target="creator.PizzaStore">
+      <point x="0.0" y="-27.5" />
+      <point x="94.0" y="608.0" />
+      <point x="151.0" y="608.0" />
+      <point x="-47.0" y="39.0" />
+    </edge>
+    <edge source="product.ChicagoStyleVeggiePizza" target="product.Pizza">
+      <point x="0.0" y="-72.0" />
+      <point x="116.0" y="276.0" />
+      <point x="641.0" y="276.0" />
+      <point x="-55.0" y="128.0" />
+    </edge>
+    <edge source="product.NYStyleCheesePizza" target="product.Pizza">
+      <point x="0.0" y="-72.0" />
+      <point x="348.0" y="286.0" />
+      <point x="663.0" y="286.0" />
+      <point x="-33.0" y="128.0" />
+    </edge>
+    <edge source="product.ChicagoStyleCheesePizza" target="product.Pizza">
+      <point x="0.0" y="-72.0" />
+      <point x="580.0" y="296.0" />
+      <point x="685.0" y="296.0" />
+      <point x="-11.0" y="128.0" />
+    </edge>
+    <edge source="product.ChicagoStyleClamPizza" target="product.Pizza">
+      <point x="0.0" y="-72.0" />
+      <point x="1232.0" y="276.0" />
+      <point x="751.0" y="276.0" />
+      <point x="55.0" y="128.0" />
+    </edge>
+    <edge source="product.NYStyleClamPizza" target="product.Pizza">
+      <point x="0.0" y="-72.0" />
+      <point x="1016.0" y="286.0" />
+      <point x="729.0" y="286.0" />
+      <point x="33.0" y="128.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="670.0" y="344.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
