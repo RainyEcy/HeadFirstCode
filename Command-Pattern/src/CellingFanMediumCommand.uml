@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>concretecommand.CellingFanMediumCommand</OriginalElement>
+  <nodes>
+    <node x="561.0" y="152.0">concretecommand.CellingFanLowCommand</node>
+    <node x="842.0" y="152.0">concretecommand.CellingFanMediumCommand</node>
+    <node x="276.0" y="152.0">concretecommand.CellingFanHighCommand</node>
+    <node x="0.0" y="152.0">concretecommand.CellingFanOffCommand</node>
+    <node x="0.0" y="319.0">receiver.CellingFan</node>
+    <node x="485.5" y="0.0">command.Command</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="concretecommand.CellingFanHighCommand" target="command.Command">
+      <point x="0.0" y="-61.0" />
+      <point x="408.5" y="132.0" />
+      <point x="533.875" y="132.0" />
+      <point x="-16.125" y="51.0" />
+    </edge>
+    <edge source="concretecommand.CellingFanMediumCommand" target="command.Command">
+      <point x="0.0" y="-61.0" />
+      <point x="985.0" y="122.0" />
+      <point x="598.375" y="122.0" />
+      <point x="48.375" y="51.0" />
+    </edge>
+    <edge source="concretecommand.CellingFanOffCommand" target="command.Command">
+      <point x="0.0" y="-61.0" />
+      <point x="128.0" y="122.0" />
+      <point x="501.625" y="122.0" />
+      <point x="-48.375" y="51.0" />
+    </edge>
+    <edge source="concretecommand.CellingFanLowCommand" target="command.Command">
+      <point x="0.0" y="-61.0" />
+      <point x="691.5" y="132.0" />
+      <point x="566.125" y="132.0" />
+      <point x="16.125" y="51.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9358490566037736" x="564.0" y="255.0" />
+  <SelectedNodes>
+    <node>concretecommand.CellingFanMediumCommand</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
