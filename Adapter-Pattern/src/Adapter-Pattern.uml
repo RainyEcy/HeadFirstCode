@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ducks.Duck2TurkeyAdapter</OriginalElement>
+  <nodes>
+    <node x="3.5" y="315.0">ducks.Duck</node>
+    <node x="0.0" y="126.0">ducks.Duck2TurkeyAdapter</node>
+    <node x="0.0" y="441.0">ducks.MallardDuck</node>
+    <node x="144.75" y="0.0">ducks.Turkey</node>
+    <node x="244.0" y="160.0">ducks.WildTurkey</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ducks.MallardDuck" target="ducks.Duck">
+      <point x="0.0" y="-38.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="ducks.WildTurkey" target="ducks.Turkey">
+      <point x="0.0" y="-38.0" />
+      <point x="310.5" y="101.0" />
+      <point x="244.5" y="101.0" />
+      <point x="33.25" y="38.0" />
+    </edge>
+    <edge source="ducks.Duck2TurkeyAdapter" target="ducks.Turkey">
+      <point x="0.0" y="-72.0" />
+      <point x="112.0" y="101.0" />
+      <point x="178.0" y="101.0" />
+      <point x="-33.25" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="188.5" y="258.5" />
+  <SelectedNodes>
+    <node>ducks.Duck2TurkeyAdapter</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
