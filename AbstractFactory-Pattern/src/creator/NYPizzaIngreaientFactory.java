@@ -10,6 +10,7 @@ public class NYPizzaIngreaientFactory implements PizzaIngredientFactory {
   private volatile static PizzaIngredientFactory pizzaIngredientFactory;
 
   private NYPizzaIngreaientFactory() {
+
   }
 
   public static PizzaIngredientFactory getInstance() {
