@@ -26,7 +26,7 @@ public class MyRemoteImpl extends UnicastRemoteObject implements MyRemote {
 
     public static void main(String[] args) throws RemoteException, MalformedURLException {
         MyRemote remote = new MyRemoteImpl();
-        Naming.rebind("RemoteHello", remote);
+        Naming.rebind("rmi://10.211.55.2/RemoteHello", remote);
 
     }
 

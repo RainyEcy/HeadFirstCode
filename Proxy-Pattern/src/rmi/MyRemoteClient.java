@@ -12,7 +12,7 @@ public class MyRemoteClient {
 
     public void go() {
         try {
-            MyRemote server = (MyRemote) Naming.lookup("rmi://127.0.0.1/RemoteHello");
+            MyRemote server = (MyRemote) Naming.lookup("rmi://10.211.55.2/RemoteHello");
             System.out.println(server.sayHello());
         } catch (NotBoundException e) {
             throw new RuntimeException(e);
